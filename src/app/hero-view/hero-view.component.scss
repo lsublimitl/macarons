@@ -1,0 +1,31 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  &_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &_pic {
+      &_img {
+        width: 10em;
+        height: auto;
+      }
+    }
+    &_name {
+      margin-left: 30px;
+      &_img {
+        width: 10em;
+        height: auto;
+      }
+    }
+  }
+
+  &_description {
+
+  }
+}
